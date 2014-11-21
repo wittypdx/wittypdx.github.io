@@ -1,0 +1,21 @@
+<h2>a few jams</h2>
+<div class="form-group">
+  <label for="add-username">Enter Discogs Username</label>
+  <input id="add-username" class="form-control" type="text">
+  <br>
+
+  <button id="username-submit" class="btn btn-success">Submit</button>
+  <br>
+</div>
+
+<div class="main">
+<div class="row">
+  <div class="col-md-6">{{#each wants}}
+  <ul><li><iframe width="420" height="315" src="//www.youtube.com/embed/{{youtube}}"frameborder="0" allowfullscreen></iframe></li><li><a href="http://www.discogs.com/release/{{discogs}}">click here for discogs release page</a></ul>
+{{/each}}</div>
+
+  <div class="col-md-6">{{#each collection}}
+  <ul><li><iframe width="420" height="315" src="//www.youtube.com/embed/{{youtube}}"frameborder="0" allowfullscreen></iframe></li><li><a href="http://www.discogs.com/release/{{discogs}}">click here for discogs release page</a></ul>
+{{/each}}</div>
+ 
+</div>
