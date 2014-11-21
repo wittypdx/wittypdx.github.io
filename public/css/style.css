@@ -1,0 +1,127 @@
+* {
+  ms-box-sizing: border-box;
+  moz-box-sizing: border-box;
+  webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+#vid-column {
+  border-left-style: outset;
+  min-height: 780px;
+}
+
+#username {
+  margin-top: 2%;
+}
+
+.username-submit-init {
+  width: 40%;
+  margin-top: 4%;
+  margin-left: 30%;
+  margin-right: 30%;
+  max-width: 120px;
+}
+
+.username-submit-main {
+  width: 35%;
+  max-width: 100px;
+  margin-top: 4%;
+}
+
+.username-submit-init:hover {
+  opacity: .5;
+}
+
+.username-submit-main:hover {
+  opacity: .5;
+}
+
+#username-form-init {
+  width: 50%;
+  margin: auto;
+}
+
+.gatekeeper {
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.rec-img {
+  margin-bottom: 12%;
+}
+
+.rec-img-init {
+  margin-bottom: 2%;
+}
+
+.rec-img img {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.rec-img-init img {
+  width: 14%;
+  margin-left: 43%;
+  margin-right: 43%;
+}
+
+#userlist .dropdown-menu li {
+  padding-left: 10%;
+  padding-bottom: 6%;
+}
+
+.vid-nav {
+  text-align: center;
+}
+
+#vid-link {
+  text-align: center;
+}
+
+.lazy-wrapper{
+  height: 240px;
+}
+
+.pill-outer {
+  text-align: center;
+}
+
+.pill-wrap {
+  display: inline-block; 
+  float: center;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+  background-color: #333;
+
+  border-radius: 100%;  
+  -webkit-animation: scaleout 1.0s infinite ease-in-out;
+  animation: scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes scaleout {
+  0% { -webkit-transform: scale(0.0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes scaleout {
+  0% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 100% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+Status API Training Shop Blog About © 2014 GitHub, Inc. Terms Privacy Security Contact 
